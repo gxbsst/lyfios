@@ -49,7 +49,6 @@
 		AD46E5CF169B052300C0BD40 /* space@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD46E5C1169B052300C0BD40 /* space@2x.png */; };
 		AD46E5D0169B052300C0BD40 /* space_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD46E5C2169B052300C0BD40 /* space_h@2x.png */; };
 		AD46E5D3169B072900C0BD40 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD46E5D2169B072900C0BD40 /* LoginViewController.m */; };
-		AD46E5D6169B07D600C0BD40 /* NSNotificationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AD46E5D5169B07D600C0BD40 /* NSNotificationAdditions.m */; };
 		AD46E5D9169B088700C0BD40 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD46E5D8169B088700C0BD40 /* SearchViewController.m */; };
 		AD46E5DC169B093400C0BD40 /* SearchNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD46E5DB169B093400C0BD40 /* SearchNavigationController.m */; };
 		AD46E5DF169B0B3C00C0BD40 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD46E5DE169B0B3C00C0BD40 /* CollectionViewController.m */; };
@@ -60,6 +59,7 @@
 		AD46E5EE169B0C1500C0BD40 /* HomeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD46E5ED169B0C1500C0BD40 /* HomeNavigationController.m */; };
 		AD46E5F1169B0C2C00C0BD40 /* SpaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD46E5F0169B0C2C00C0BD40 /* SpaceViewController.m */; };
 		AD46E5F4169B0C3E00C0BD40 /* SpaceNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD46E5F3169B0C3E00C0BD40 /* SpaceNavigationController.m */; };
+		ADA4DFCF169C671100B25B27 /* NSNotificationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA4DFCE169C671100B25B27 /* NSNotificationAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,8 +128,6 @@
 		AD46E5C2169B052300C0BD40 /* space_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "space_h@2x.png"; sourceTree = "<group>"; };
 		AD46E5D1169B072900C0BD40 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		AD46E5D2169B072900C0BD40 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		AD46E5D4169B07D600C0BD40 /* NSNotificationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSNotificationAdditions.h; path = "../../../Downloads/IOS导航栏＋Tabbar/SHHFrameWorkWithNaviAndTabBar/SHHFrameWorkWithNaviAndTabBar/Utilities/Additions/ns/NSNotificationAdditions.h"; sourceTree = "<group>"; };
-		AD46E5D5169B07D600C0BD40 /* NSNotificationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSNotificationAdditions.m; path = "../../../Downloads/IOS导航栏＋Tabbar/SHHFrameWorkWithNaviAndTabBar/SHHFrameWorkWithNaviAndTabBar/Utilities/Additions/ns/NSNotificationAdditions.m"; sourceTree = "<group>"; };
 		AD46E5D7169B088700C0BD40 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		AD46E5D8169B088700C0BD40 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		AD46E5DA169B093400C0BD40 /* SearchNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchNavigationController.h; sourceTree = "<group>"; };
@@ -150,6 +148,8 @@
 		AD46E5F0169B0C2C00C0BD40 /* SpaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceViewController.m; sourceTree = "<group>"; };
 		AD46E5F2169B0C3E00C0BD40 /* SpaceNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceNavigationController.h; sourceTree = "<group>"; };
 		AD46E5F3169B0C3E00C0BD40 /* SpaceNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceNavigationController.m; sourceTree = "<group>"; };
+		ADA4DFCD169C671100B25B27 /* NSNotificationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNotificationAdditions.h; sourceTree = "<group>"; };
+		ADA4DFCE169C671100B25B27 /* NSNotificationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNotificationAdditions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,8 +296,8 @@
 		AD46E596169AC0E100C0BD40 /* utilities */ = {
 			isa = PBXGroup;
 			children = (
-				AD46E5D4169B07D600C0BD40 /* NSNotificationAdditions.h */,
-				AD46E5D5169B07D600C0BD40 /* NSNotificationAdditions.m */,
+				ADA4DFCD169C671100B25B27 /* NSNotificationAdditions.h */,
+				ADA4DFCE169C671100B25B27 /* NSNotificationAdditions.m */,
 				AD46E597169AC13400C0BD40 /* Ivan_UITabBar.h */,
 				AD46E598169AC13400C0BD40 /* Ivan_UITabBar.m */,
 			);
@@ -553,7 +553,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD46E578169AB1CA00C0BD40 /* linyufangTests.m in Sources */,
-				AD46E5D6169B07D600C0BD40 /* NSNotificationAdditions.m in Sources */,
+				ADA4DFCF169C671100B25B27 /* NSNotificationAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
