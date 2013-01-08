@@ -4,6 +4,7 @@
 #import "CategoryController.h"
 #import "CollectionController.h"
 #import "SearchController.h"
+#import "SpaceController.h"
 #import "LoginController.h"
 
 @implementation AppDelegate
@@ -142,7 +143,13 @@
 //    [selectImageDict release];
     
     // 设置tabBar对应的viewControllers,此处设置的导航
-    NSArray *viewControllers = [[NSArray alloc] initWithObjects:[HomeController defaultController].homeNavigationController, [CategoryController defaultController].categoryNavigationController, [SearchController defaultController].searchNavigationController,[CollectionController defaultController].collectNavigationController, [SearchController defaultController].searchNavigationController, nil];
+    NSArray *viewControllers = [[NSArray alloc] initWithObjects:
+                                [HomeController defaultController].homeNavigationController,
+                                [CategoryController defaultController].categoryNavigationController,
+                                [SpaceController defaultController].spaceNavigationController,
+                                [CollectionController defaultController].collectNavigationController,
+                                [SearchController defaultController].searchNavigationController,
+                                nil];
     
     tabBarController.viewControllers = viewControllers;
 //    [viewControllers release];
@@ -151,6 +158,8 @@
     mainViewController_ = tabBarController;
     
     [mainWindow_ addSubview:[[LoginController defaultController].loginViewController view]];
+//    [mainWindow_ addSubview:mainViewController_.view];
+
     
     [mainWindow_ makeKeyAndVisible];
     

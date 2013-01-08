@@ -4,9 +4,10 @@
 
 @class SpaceViewController;
 
-@interface SpaceNavigationController : UINavigationController
+@interface SpaceNavigationController : UIViewController
 {
     SpaceViewController *spaceViewController_;
+//    UIImageView *imageView;
 }
 
 @end

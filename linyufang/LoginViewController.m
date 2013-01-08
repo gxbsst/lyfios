@@ -48,7 +48,7 @@
     [labelName setFrame:CGRectMake(0, 15, 289, 86)];
     
     UIButton *btnRegister = [UIButton buttonWithType:UIButtonTypeCustom];
-    [btnRegister setImage:[UIImage imageNamed:@"bt578X85"] forState:UIControlStateNormal];
+    [btnRegister setImage:[UIImage imageNamed:@"space@2x"] forState:UIControlStateNormal];
     [btnRegister addTarget:self action:@selector(pushRegisterView:) forControlEvents:UIControlEventTouchUpInside];
     [btnRegister setFrame:CGRectMake(0, 110, 289, 43)];
     
